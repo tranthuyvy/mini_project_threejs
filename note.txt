@@ -5,5 +5,5 @@
 - Packages:
     + npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 - Install tailwindcss go: https://tailwindcss.com/docs/guides/vite
-    + npm install -D tailwindcss
-    + npx tailwindcss init
+    + npm install -D tailwindcss postcss autoprefixer
+    + npx tailwindcss init -p
