@@ -2,8 +2,17 @@
 
 - React + Vite: npm create vite@latest <project_name> -- --template react
                 OR npm create vite@latest . -- --template react (tại thư mục đang đứng)
+
 - Packages:
     + npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+    + npm install --legacy-peer-deps three
+
 - Install tailwindcss go: https://tailwindcss.com/docs/guides/vite
     + npm install -D tailwindcss postcss autoprefixer
     + npx tailwindcss init -p
+
+- React Three Fiber go: https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
+
+- Free 3D Models: 
+    + https://www.turbosquid.com/Search/3D-Models/free#
+    + https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount (recommend)
