@@ -1,0 +1,9 @@
+=================================CREATED BY TRAN THUY VY=================================
+
+- React + Vite: npm create vite@latest <project_name> -- --template react
+                OR npm create vite@latest . -- --template react (tại thư mục đang đứng)
+- Packages:
+    + npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+- Install tailwindcss go: https://tailwindcss.com/docs/guides/vite
+    + npm install -D tailwindcss
+    + npx tailwindcss init
