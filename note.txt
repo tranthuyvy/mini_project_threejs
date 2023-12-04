@@ -18,3 +18,5 @@
     + https://sketchfab.com/3d-models?date=week&features=downloadable&sort_by=-likeCount (recommend)
 
 - react-tilt: độ nghiêng card
+
+-EmailJS: https://www.emailjs.com/
