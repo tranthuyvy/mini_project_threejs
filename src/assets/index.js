@@ -15,6 +15,9 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import java from "./tech/java.png";
+import springboot from "./tech/springboot.png";
+import php from "./tech/php.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -24,11 +27,10 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import vti from "./company/vti.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cv from "./cv.png";
 
 export {
   logo,
@@ -47,6 +49,9 @@ export {
   javascript,
   mongodb,
   nodejs,
+  java,
+  springboot,
+  php,
   reactjs,
   redux,
   tailwind,
@@ -55,8 +60,7 @@ export {
   meta,
   shopify,
   starbucks,
+  vti,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  cv,
 };
