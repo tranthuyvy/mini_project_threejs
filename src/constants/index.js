@@ -24,6 +24,7 @@ import {
   movie,
   book,
   mobileselling,
+  lotus,
 } from "../assets";
 
 export const navLinks = [
@@ -138,6 +139,17 @@ const careers = [
 
 const experiences = [
   {
+    title: "Design",
+    company_name: "Little Lotus Preschool",
+    icon: lotus,
+    iconBg: "#ECECEC",
+    date: "December 2020 - April 2021",
+    points: [
+      "Design banners, posters, brochures.",
+      "Record videos, take photos, and edit videos.",
+    ],
+  },
+  {
     title: "Intern Fullstack",
     company_name: "Trainee Developer - VTI",
     icon: vti,
@@ -149,19 +161,6 @@ const experiences = [
       "Deploying and developing web applications using the Java-Springboot Framework and ReactJs.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const projects = [

@@ -29,6 +29,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import vti from "./company/vti.png";
 import tesla from "./company/tesla.png";
+import lotus from "./company/lotus.png";
 
 import cv from "./banner/cv.png";
 import ecommerce from "./banner/ecommerce.jpg";
@@ -75,6 +76,7 @@ export {
   shopify,
   starbucks,
   vti,
+  lotus,
   tesla,
   cv,
   ecommerce,
