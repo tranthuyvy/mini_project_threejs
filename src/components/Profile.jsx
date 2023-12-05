@@ -1,4 +1,3 @@
-import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";

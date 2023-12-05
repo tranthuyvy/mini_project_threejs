@@ -185,7 +185,7 @@ const projects = [
     ],
     image: cv,
     source_code_link: "https://github.com/tranthuyvy/mini_project_threejs",
-    website: "https://ttv-tranthuyvy-6w71yp8vz-tran-vys-projects.vercel.app/",
+    website: "https://ttv-tranthuyvy-cv.vercel.app/",
   },
   {
     name: "Customizing T-Shirt AI",
