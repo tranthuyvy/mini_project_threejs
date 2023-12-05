@@ -15,7 +15,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  jira,
   vti,
   cv,
   threejs,
@@ -27,6 +27,10 @@ import {
 } from "../assets";
 
 export const navLinks = [
+  {
+    id: "profile",
+    title: "Profile",
+  },
   {
     id: "about",
     title: "About",
@@ -117,10 +121,19 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "jira",
+    icon: jira,
+  },
+];
+
+const careers = [
+  {
+    objects: [
+      "During the first 3-6 months, focus on learning, acquiring additional knowledge and experience, and getting accustomed to the work environment.",
+      "After 6 months, transition into an official employee role, become proficient in the work environment, foster a strong commitment to learning, and contribute to the company's success through personal development.",
+    ],
+  },
 ];
 
 const experiences = [
@@ -298,4 +311,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, careers };

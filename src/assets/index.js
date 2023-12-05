@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import jira from "./tech/jira.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -30,12 +30,21 @@ import starbucks from "./company/starbucks.png";
 import vti from "./company/vti.png";
 import tesla from "./company/tesla.png";
 
-import cv from "./cv.png";
-import ecommerce from "./ecommerce.jpg";
-import custom from "./custom.png";
-import movie from "./movie.png";
-import book from "./bookselling.png";
-import mobileselling from "./mobileselling.png";
+import cv from "./banner/cv.png";
+import ecommerce from "./banner/ecommerce.jpg";
+import custom from "./banner/custom.png";
+import movie from "./banner/movie.png";
+import book from "./banner/bookselling.png";
+import mobileselling from "./banner/mobileselling.png";
+
+import face from "./face.jpg";
+import gmail from "./gmail.png";
+import birthday from "./birth.png";
+import user from "./user.png";
+import phone from "./phone.png";
+import gh from "./git.png";
+import linkedin from "./linkedin.png";
+import map from "./maps.png";
 
 export {
   logo,
@@ -47,7 +56,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  jira,
   figma,
   git,
   html,
@@ -73,4 +82,12 @@ export {
   movie,
   book,
   mobileselling,
+  face,
+  gmail,
+  birthday,
+  user,
+  phone,
+  gh,
+  linkedin,
+  map,
 };

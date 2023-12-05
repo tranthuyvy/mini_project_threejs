@@ -4,6 +4,7 @@ import {
   ComputersCanvas,
   StarsCanvas,
 } from "./canvas";
+import Profile from "./Profile";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -14,6 +15,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 
 export {
+  Profile,
   Hero,
   Navbar,
   About,
