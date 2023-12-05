@@ -124,10 +124,10 @@ const Profile = () => {
 
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
             <li className="text-white-100 text-[16px] pl-1 tracking-wider mb-5">During the first 3-6 months, focus on learning, acquiring additional knowledge and experience, and getting accustomed to the work environment.</li>
-            <li className="text-white-100 text-[16px] pl-1 tracking-wider">After 6 months.</li>
+            <li className="text-white-100 text-[16px] pl-1 tracking-wider">After 6 months, become an official employee, adapt to the work environment and contribute to the company through personal development.</li>
         </ul>
 
-        <br className="border"/>
+        <br />
 
         <h3 className={styles.sectionHeadText}>Education</h3>
             <p className="text-white-100 text-[16px] font-semibold pl-1 tracking-wider mb-5">Posts and Telecommunications Institute of Technology at Ho Chi Minh City</p>
@@ -140,6 +140,8 @@ const Profile = () => {
             <li className="text-white-100 text-[15px] pl-1 tracking-wider">Green Sunday.</li>
         </ul>
 
+        <br />
+        
         <h3 className={styles.sectionHeadText}>Interests</h3>
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
             <li className="text-white-100 text-[15px] pl-1 tracking-wider">Play Badminton.</li>

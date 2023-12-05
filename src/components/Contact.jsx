@@ -70,7 +70,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={`font-normal text-justify`}>Feel free to get in touch if you have any questions, or if you have any feedback or suggestions, please contact me through the form below</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
