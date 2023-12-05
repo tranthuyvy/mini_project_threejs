@@ -4,34 +4,10 @@
 
 - A website built to serve one's own job application (CV)
 
-# Profile
-
-<div align=center>
-    <a href="https://ttv-tranthuyvy-cv.vercel.app/#profile"><img src="" /></a>
-</div>
-
-<br/>
-
-# About skills
-
-<div align=center>
-    <a href="https://ttv-tranthuyvy-cv.vercel.app/#about"><img src="" /></a>
-</div>
-
-<br/>
-
-# Experience
-
-<div align=center>
-    <a href="https://ttv-tranthuyvy-cv.vercel.app/#work"><img src="" /></a>
-</div>
-
-<br/>
-
 # My Projects
 
 <div align=center>
-    <a href="https://ttv-tranthuyvy-cv.vercel.app/#project"><img src="" /></a>
+    <a href="https://ttv-tranthuyvy-cv.vercel.app/#project"><img src="./src/assets/banner/cv-project.png" /></a>
 </div>
 
 <br/>
@@ -39,7 +15,7 @@
 # Get in touch
 
 <div align=center>
-    <a href="https://ttv-tranthuyvy-cv.vercel.app/#contact"><img src="" /></a>
+    <a href="https://ttv-tranthuyvy-cv.vercel.app/#contact"><img src="./src/assets/banner/cv-contact.png" /></a>
 </div>
 
 # Using

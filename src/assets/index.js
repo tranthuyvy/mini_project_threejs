@@ -31,7 +31,7 @@ import vti from "./company/vti.png";
 import tesla from "./company/tesla.png";
 import lotus from "./company/lotus.png";
 
-import cv from "./banner/cv.png";
+import cv from "./banner/cv-contact.png";
 import ecommerce from "./banner/ecommerce.jpg";
 import custom from "./banner/custom.png";
 import movie from "./banner/movie.png";
