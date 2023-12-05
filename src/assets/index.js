@@ -31,6 +31,11 @@ import vti from "./company/vti.png";
 import tesla from "./company/tesla.png";
 
 import cv from "./cv.png";
+import ecommerce from "./ecommerce.jpg";
+import custom from "./custom.png";
+import movie from "./movie.png";
+import book from "./bookselling.png";
+import mobileselling from "./mobileselling.png";
 
 export {
   logo,
@@ -63,4 +68,9 @@ export {
   vti,
   tesla,
   cv,
+  ecommerce,
+  custom,
+  movie,
+  book,
+  mobileselling,
 };

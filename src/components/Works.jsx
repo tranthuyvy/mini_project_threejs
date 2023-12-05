@@ -7,9 +7,12 @@ import { github } from "../assets"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, website}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 1)}>
+    <motion.div 
+      variants={fadeIn("up", "spring", index * 0.5, 1)} 
+      onClick={() => window.open(website, "_blank")}
+    >
       <Tilt
         options={{
           max: 45,
@@ -18,7 +21,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className="relative w-full h-[250px]">
+        <div className="relative w-full h-[250px]"
+        >
           <img 
             src={image}
             alt={name}
@@ -41,7 +45,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
 
         <div className="mt-5 ">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <p className="mt-2 text-secondary text-[14px] text-justify mr-2">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

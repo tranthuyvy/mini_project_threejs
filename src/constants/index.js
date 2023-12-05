@@ -19,6 +19,11 @@ import {
   vti,
   cv,
   threejs,
+  ecommerce,
+  custom,
+  movie,
+  book,
+  mobileselling,
 } from "../assets";
 
 export const navLinks = [
@@ -149,7 +154,8 @@ const experiences = [
 const projects = [
   {
     name: "CV-Profile",
-    description: "A website built to serve one's own job application (CV).",
+    description:
+      "A website built to serve one's own job application (CV), incorporating Three.js for 3D graphics, React and Tailwind CSS for flexible and visually appealing design.",
     tags: [
       {
         name: "react",
@@ -166,48 +172,129 @@ const projects = [
     ],
     image: cv,
     source_code_link: "https://github.com/tranthuyvy/mini_project_threejs",
+    website: "https://ttv-tranthuyvy-6w71yp8vz-tran-vys-projects.vercel.app/",
   },
   {
     name: "Customizing T-Shirt AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Design T-Shirt Customizing Website, you can upload custom logos and texture files or can write AI Prompt to help you generate custom logos, textures for your T-shirt.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs - restfulapi",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cv,
-    source_code_link: "https://github.com/tranthuyvy/ttv-design-shirt-ai",
-  },
-  {
-    name: "Sneaker Website",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs - restfulapi",
-        color: "green-text-gradient",
+        name: "restfulapi",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: cv,
-    source_code_link: "https://github.com/tranthuyvy/Sneaker_Website",
+    image: custom,
+    source_code_link: "https://github.com/tranthuyvy/ttv-design-shirt-ai",
+    website: "https://ttv-fe-design-shirt-ai.vercel.app/",
+  },
+  {
+    name: "Frontend Movie",
+    description:
+      "Drawing inspiration from the Netflix app, I designed a user interface using ReactJS and calls API from The Movie Database (TMDB).",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movie,
+    source_code_link: "https://github.com/tranthuyvy/FE_Movie",
+    website: "https://the-movie-f2cd8.web.app/",
+  },
+  {
+    name: "Sneaker Website",
+    description:
+      "Users interface easy shopping, ordering and convenient product reviews, along with various features for management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spingboot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restfulapi",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/tranthuyvy/ecommerce_FE",
+    website: "",
+  },
+  {
+    name: "Books Website",
+    description:
+      "Users can purchase and place orders through the website, and the data is saved on the database.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "yii2",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: book,
+    source_code_link: "https://github.com/tranthuyvy/bookwebsite_Yii2",
+    website: "",
+  },
+  {
+    name: "Mobile Sales Application",
+    description:
+      "Using Android Studio and manage the MySQL database. Users can purchase and place orders through the app.",
+    tags: [
+      {
+        name: "query-php",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "androidstudio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mobileselling,
+    source_code_link: "https://github.com/tranthuyvy/AppBanHang",
+    website: "",
   },
 ];
 
