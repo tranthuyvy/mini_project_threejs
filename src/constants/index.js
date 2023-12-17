@@ -254,7 +254,7 @@ const projects = [
   {
     name: "Vfiverr Website",
     description:
-      "Website inspiration from the Fiverr website, is online platform that creates connections between buyers and sellers (Network Freelancer).",
+      "Website inspiration from Fiverr website, is online platform to connections between buyers and sellers (Network Freelancer).",
     tags: [
       {
         name: "reactjs",
