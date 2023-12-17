@@ -37,6 +37,7 @@ import custom from "./banner/custom.png";
 import movie from "./banner/movie.png";
 import book from "./banner/bookselling.png";
 import mobileselling from "./banner/mobileselling.png";
+import drawphoto from "./banner/drawphoto.png";
 
 import face from "./face.jpg";
 import gmail from "./gmail.png";
@@ -92,4 +93,5 @@ export {
   gh,
   linkedin,
   map,
+  drawphoto,
 };

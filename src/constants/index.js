@@ -25,6 +25,7 @@ import {
   book,
   mobileselling,
   lotus,
+  drawphoto,
 } from "../assets";
 
 export const navLinks = [
@@ -226,7 +227,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: cv,
+    image: drawphoto,
     source_code_link: "https://github.com/tranthuyvy/DrawPhotos",
     website: "https://drawphotos-mjt54t879c4wpnjeycqpaq.streamlit.app/",
   },
