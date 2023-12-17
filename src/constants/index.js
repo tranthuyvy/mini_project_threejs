@@ -26,6 +26,7 @@ import {
   mobileselling,
   lotus,
   drawphoto,
+  dinosaurgame,
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +231,24 @@ const projects = [
     image: drawphoto,
     source_code_link: "https://github.com/tranthuyvy/DrawPhotos",
     website: "https://drawphotos-mjt54t879c4wpnjeycqpaq.streamlit.app/",
+  },
+  {
+    name: "Dinosaur Running Game",
+    description:
+      "Game is inspired by dinosaur running on Chrome browser when the internet connection is lost",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pygame",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dinosaurgame,
+    source_code_link: "https://github.com/tranthuyvy/DinosaurGame.git",
+    website: "",
   },
   {
     name: "Frontend Movie",
