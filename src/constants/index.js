@@ -213,6 +213,24 @@ const projects = [
     website: "https://ttv-fe-design-shirt-ai.vercel.app/",
   },
   {
+    name: "Drawing From File Photo",
+    description:
+      "A website to create paintings from photos, you can upload any image you want to turn into a watercolor or pencil painting, or you may choose to remove noise for image",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "green-text-gradient",
+      },
+    ],
+    image: cv,
+    source_code_link: "https://github.com/tranthuyvy/DrawPhotos",
+    website: "https://drawphotos-mjt54t879c4wpnjeycqpaq.streamlit.app/",
+  },
+  {
     name: "Frontend Movie",
     description:
       "Drawing inspiration from the Netflix app, I designed a user interface using ReactJS and calls API from The Movie Database (TMDB).",
