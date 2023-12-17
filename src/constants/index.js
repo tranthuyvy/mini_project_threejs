@@ -27,6 +27,7 @@ import {
   lotus,
   drawphoto,
   dinosaurgame,
+  vfiverr,
 } from "../assets";
 
 export const navLinks = [
@@ -217,7 +218,7 @@ const projects = [
   {
     name: "Drawing From File Photo",
     description:
-      "A website to create paintings from photos, you can upload any image you want to turn into a watercolor or pencil painting, or you may choose to remove noise for image",
+      "A website to create paintings from photos, you can upload any image you want to turn into a watercolor or pencil painting, or you may choose to remove noise for image.",
     tags: [
       {
         name: "python",
@@ -235,7 +236,7 @@ const projects = [
   {
     name: "Dinosaur Running Game",
     description:
-      "Game is inspired by dinosaur running on Chrome browser when the internet connection is lost",
+      "Game is inspired by dinosaur running on Chrome browser when the internet connection is lost.",
     tags: [
       {
         name: "python",
@@ -251,9 +252,31 @@ const projects = [
     website: "",
   },
   {
+    name: "Vfiverr Website",
+    description:
+      "Website inspiration from the Fiverr website, is online platform that creates connections between buyers and sellers (Network Freelancer).",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: vfiverr,
+    source_code_link: "https://github.com/tranthuyvy/Vfiverr.git",
+    website: "",
+  },
+  {
     name: "Frontend Movie",
     description:
-      "Drawing inspiration from the Netflix app, I designed a user interface using ReactJS and calls API from The Movie Database (TMDB).",
+      "Drawing inspiration from Netflix app. I designed user interface using ReactJS, calls API from The Movie Database (TMDB).",
     tags: [
       {
         name: "react",
