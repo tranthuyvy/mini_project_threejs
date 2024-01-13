@@ -113,10 +113,10 @@ const technologies = [
     name: "PHP",
     icon: php,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "git",
     icon: git,
@@ -157,7 +157,7 @@ const experiences = [
     company_name: "Trainee Developer - VTI",
     icon: vti,
     iconBg: "#E6DEDD",
-    date: "May 2023 - September 2023",
+    date: "May 2023 - October 2023",
     points: [
       "Learning and accumulating experience.",
       "Implementing responsive design and ensuring cross-browser compatibility.",

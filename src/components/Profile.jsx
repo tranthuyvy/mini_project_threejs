@@ -122,30 +122,37 @@ const Profile = () => {
         <h3 className={styles.sectionHeadText}>Objective</h3>
 
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
-            <li className="text-white-100 text-[16px] pl-1 tracking-wider mb-5">During the first 3-6 months, focus on learning, acquiring additional knowledge and experience, and getting accustomed to the work environment.</li>
-            <li className="text-white-100 text-[16px] pl-1 tracking-wider">After 6 months, become an official employee, adapt to the work environment and contribute to the company through personal development.</li>
+          <li className="text-white-100 text-[16px] pl-1 tracking-wider mb-5">During the first 3-6 months, focus on learning, acquiring additional knowledge and experience, and getting accustomed to the work environment.</li>
+          <li className="text-white-100 text-[16px] pl-1 tracking-wider">After 6 months, become an official employee, adapt to the work environment and contribute to the company through personal development.</li>
         </ul>
 
         <br />
 
         <h3 className={styles.sectionHeadText}>Education</h3>
-            <p className="text-white-100 text-[16px] font-semibold pl-1 tracking-wider mb-5">Posts and Telecommunications Institute of Technology at Ho Chi Minh City</p>
-            <p className="text-white-100 text-[14px] font-medium pl-1 tracking-wider mb-5 italic">10-2019 to now</p>
-            <p className="text-white-100 text-[15px] font-extralight pl-1 tracking-wider mb-5">Received a Good Scholarship in the first semester of the second year and the first semester of the third year.</p>
+        <p className="text-white-100 text-[16px] font-semibold pl-1 tracking-wider mb-5">Posts and Telecommunications Institute of Technology at Ho Chi Minh City</p>
+        <p className="text-white-100 text-[14px] font-medium pl-1 tracking-wider mb-5 italic">10-2019 to now</p>
+        <p className="text-white-100 text-[15px] font-extralight pl-1 tracking-wider mb-5">Received a Good Scholarship in the first semester of the second year and the first semester of the third year.</p>
 
-        <h3 className={styles.sectionHeadText}>Activities</h3>
+        <h3 className={styles.sectionHeadText}>Experience</h3>
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
-            <li className="text-white-100 text-[15px] pl-1 tracking-wider">Blood Donation.</li>
-            <li className="text-white-100 text-[15px] pl-1 tracking-wider">Green Sunday.</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Designer at Little Lotus Preschool</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Design banners, posters, brochures and record videos, take photos, and edit videos.</li>
         </ul>
 
         <br />
-        
-        <h3 className={styles.sectionHeadText}>Interests</h3>
+
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
-            <li className="text-white-100 text-[15px] pl-1 tracking-wider">Play Badminton.</li>
-            <li className="text-white-100 text-[15px] pl-1 tracking-wider">Reading Books.</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Fullstack Java - ReactJs at VTI</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Learning and accumulating experience. Implementing responsive design. Developing web applications using the Java-Springboot Framework and ReactJs.</li>
         </ul>
+
+
+
+        {/* <h3 className={styles.sectionHeadText}>Interests</h3>
+        <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Play Badminton.</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Reading Books.</li>
+        </ul> */}
 
       </motion.div>
     </div>
