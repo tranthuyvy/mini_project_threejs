@@ -28,6 +28,7 @@ import {
   drawphoto,
   dinosaurgame,
   vfiverr,
+  trello,
 } from "../assets";
 
 export const navLinks = [
@@ -168,7 +169,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "CV-Profile",
+    name: "Portfolio",
     description:
       "A website built to serve one's own job application (CV), incorporating Three.js for 3D graphics, React and Tailwind CSS for flexible and visually appealing design.",
     tags: [
@@ -232,6 +233,28 @@ const projects = [
     image: drawphoto,
     source_code_link: "https://github.com/tranthuyvy/DrawPhotos",
     website: "https://drawphotos-mjt54t879c4wpnjeycqpaq.streamlit.app/",
+  },
+  {
+    name: "Trello",
+    description:
+      "A website built based on Trello, utilizing Vite for smooth and fast performance. User interface is user-friendly, developed with ReactJs and Material.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trello,
+    source_code_link: "https://github.com/tranthuyvy/Trello_Vite",
+    website: "https://ttv-trello.vercel.app/",
   },
   {
     name: "Dinosaur Running Game",
