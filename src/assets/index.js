@@ -41,6 +41,7 @@ import drawphoto from "./banner/drawphoto.png";
 import dinosaurgame from "./banner/dinosaurgame.png";
 import vfiverr from "./banner/vfiverr.png";
 import trello from "./banner/trello_light.png";
+import alan from "./banner/alan.png";
 
 import face from "./face.jpg";
 import gmail from "./gmail.png";
@@ -100,4 +101,5 @@ export {
   dinosaurgame,
   vfiverr,
   trello,
+  alan,
 };

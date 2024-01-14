@@ -24,8 +24,8 @@ const Navbar = () => {
         >
           <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            TTV &nbsp; 
-            <span className="sm:block hidden"> | Profile </span>
+            TTV &nbsp;
+            <span className="sm:block hidden"> | Portfolio </span>
           </p>
         </Link>
 
@@ -33,11 +33,10 @@ const Navbar = () => {
           {navLinks.map((item) => (
             <li
               key={item.id}
-              className={`${
-                active === item.title
+              className={`${active === item.title
                   ? "text-white border-b-2 border-white"
                   : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(item.title)}
             >
               <a href={`#${item.id}`}>{item.title}</a>
@@ -55,19 +54,17 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`${
-            !toggle ? "hidden" : "flex"
-          } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+          className={`${!toggle ? "hidden" : "flex"
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
         >
           <ul className="list-none flex justify-end items-start flex-col gap-4">
             {navLinks.map((item) => (
               <li
                 key={item.id}
-                className={`${
-                  active === item.title
+                className={`${active === item.title
                     ? "text-white border-b-2 border-white"
                     : "text-secondary"
-                } font-poppins font-medium cursor-pointer text-[16px]`}
+                  } font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => {
                   setToggle(!toggle);
                   setActive(item.title);

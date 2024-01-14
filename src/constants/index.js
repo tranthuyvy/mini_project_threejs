@@ -29,6 +29,7 @@ import {
   dinosaurgame,
   vfiverr,
   trello,
+  alan,
 } from "../assets";
 
 export const navLinks = [
@@ -217,6 +218,24 @@ const projects = [
     website: "https://ttv-fe-design-shirt-ai.vercel.app/",
   },
   {
+    name: "Alan AI",
+    description:
+      "A News Website build a Conversational Voice Controlled React News Application using Alan AI, allows you to control absolutely everything using your voice",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "alanai",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: alan,
+    source_code_link: "https://github.com/tranthuyvy/alan_ai",
+    website: "",
+  },
+  {
     name: "Drawing From File Photo",
     description:
       "A website to create paintings from photos, you can upload any image you want to turn into a watercolor or pencil painting, or you may choose to remove noise for image.",
@@ -237,7 +256,7 @@ const projects = [
   {
     name: "Trello",
     description:
-      "A website built based on Trello, utilizing Vite for smooth and fast performance. User interface is user-friendly, developed with ReactJs and Material.",
+      "A website built based on Trello, utilizing Vite for fast performance. User interface developed with ReactJs and Material.",
     tags: [
       {
         name: "react",
