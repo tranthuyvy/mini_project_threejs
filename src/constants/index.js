@@ -238,7 +238,7 @@ const projects = [
   {
     name: "Drawing From File Photo",
     description:
-      "A website to create paintings from photos, you can upload any image you want to turn into a watercolor or pencil painting, or you may choose to remove noise for image.",
+      "A website to create paintings from photos, you can upload any image you want to turn into a watercolor or pencil painting.",
     tags: [
       {
         name: "python",
