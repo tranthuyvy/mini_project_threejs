@@ -25,4 +25,8 @@
 - React & ThreeJS: Front-End
 - Git & Github: Version Control
 
+# Install, Run
+- yarn || npm install
+- yarn dev || npm run dev
+
 [website]: https://ttv-tranthuyvy-cv.vercel.app/
