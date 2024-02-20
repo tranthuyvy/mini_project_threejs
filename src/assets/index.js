@@ -27,7 +27,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import vti from "./company/vti.png";
+import irics from "./company/irics.png";
 import tesla from "./company/tesla.png";
 import lotus from "./company/lotus.png";
 
@@ -42,6 +42,8 @@ import dinosaurgame from "./banner/dinosaurgame.png";
 import vfiverr from "./banner/vfiverr.png";
 import trello from "./banner/trello_light.png";
 import alan from "./banner/alan.png";
+import web3 from "./banner/web3.png";
+import food from "./banner/food.png";
 
 import face from "./face.jpg";
 import gmail from "./gmail.png";
@@ -80,7 +82,7 @@ export {
   meta,
   shopify,
   starbucks,
-  vti,
+  irics,
   lotus,
   tesla,
   cv,
@@ -102,4 +104,6 @@ export {
   vfiverr,
   trello,
   alan,
+  web3,
+  food,
 };

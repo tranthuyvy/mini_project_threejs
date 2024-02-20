@@ -16,7 +16,7 @@ import {
   git,
   figma,
   jira,
-  vti,
+  irics,
   cv,
   threejs,
   ecommerce,
@@ -30,6 +30,8 @@ import {
   vfiverr,
   trello,
   alan,
+  web3,
+  food,
 } from "../assets";
 
 export const navLinks = [
@@ -145,34 +147,60 @@ const careers = [
 const experiences = [
   {
     title: "Design",
-    company_name: "Little Lotus Preschool",
+    company_name: "LITTLE LOTUS PRESCHOOL",
     icon: lotus,
     iconBg: "#ECECEC",
-    date: "December 2020 - April 2021",
+    date: "2020 - 2021",
     points: [
       "Design banners, posters, brochures.",
       "Record videos, take photos, and edit videos.",
     ],
   },
   {
-    title: "Intern Fullstack",
-    company_name: "Trainee Developer - VTI",
-    icon: vti,
+    title: "Frontend Developer",
+    company_name: "VIỆN NGHIÊN CỨU KHOA HỌC & CÔNG NGHỆ IRICS",
+    icon: irics,
     iconBg: "#E6DEDD",
-    date: "May 2023 - October 2023",
+    date: "2022 - 2023",
     points: [
+      "Intern and stay to work after.",
       "Learning and accumulating experience.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Deploying and developing web applications using the Java-Springboot Framework and ReactJs.",
+      "Implementing responsive design. Developing web applications using the NodeJs - Express and ReactJs.",
     ],
   },
 ];
 
 const projects = [
   {
+    name: "Project Web 3.0",
+    description:
+      "The first blockchain website built using Web 3.0 methodologies, Solidity, and Metamask. Users can track transaction history.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "metamask",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: web3,
+    source_code_link: "https://github.com/tranthuyvy/project_web3",
+    website: "https://project-web3-pink.vercel.app/",
+  },
+  {
     name: "Portfolio",
     description:
-      "A website built to serve one's own job application (CV), incorporating Three.js for 3D graphics, React and Tailwind CSS for flexible and visually appealing design.",
+      "A website built using Three.js for 3D graphics, React and Tailwind CSS for flexible and visually appealing design.",
     tags: [
       {
         name: "react",
@@ -194,7 +222,7 @@ const projects = [
   {
     name: "Customizing T-Shirt AI",
     description:
-      "A Design T-Shirt Customizing Website, you can upload custom logos and texture files or can write AI Prompt to help you generate custom logos, textures for your T-shirt.",
+      "Design T-Shirt Customizing Website, can upload custom logos, texture files or write AI Prompt generate logos, textures for T-shirt.",
     tags: [
       {
         name: "react",
@@ -218,9 +246,49 @@ const projects = [
     website: "https://ttv-fe-design-shirt-ai.vercel.app/",
   },
   {
+    name: "Trello",
+    description:
+      "A website built based on Trello, utilizing Vite for fast performance. User interface developed with ReactJs and Material.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trello,
+    source_code_link: "https://github.com/tranthuyvy/Trello_Vite",
+    website: "https://ttv-trello.vercel.app/",
+  },
+  {
+    name: "Food Delivery",
+    description:
+      "Food delivery website with user-friendly interface, implementing responsive design, allows you to manage your cart, orders.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: food,
+    source_code_link: "https://github.com/tranthuyvy/food_delivery",
+    website: "https://ttv-delivery.vercel.app/home",
+  },
+  {
     name: "Alan AI",
     description:
-      "A News Website build a Conversational Voice Controlled React News Application using Alan AI, allows you to control absolutely everything using your voice",
+      "Conversational Voice Controlled React News Application using Alan AI, allows you control absolutely everything using your voice.",
     tags: [
       {
         name: "react",
@@ -252,28 +320,6 @@ const projects = [
     image: drawphoto,
     source_code_link: "https://github.com/tranthuyvy/DrawPhotos",
     website: "https://drawphotos-mjt54t879c4wpnjeycqpaq.streamlit.app/",
-  },
-  {
-    name: "Trello",
-    description:
-      "A website built based on Trello, utilizing Vite for fast performance. User interface developed with ReactJs and Material.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "material",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vite",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: trello,
-    source_code_link: "https://github.com/tranthuyvy/Trello_Vite",
-    website: "https://ttv-trello.vercel.app/",
   },
   {
     name: "Dinosaur Running Game",
@@ -315,102 +361,102 @@ const projects = [
     source_code_link: "https://github.com/tranthuyvy/Vfiverr.git",
     website: "",
   },
-  {
-    name: "Frontend Movie",
-    description:
-      "Drawing inspiration from Netflix app. I designed user interface using ReactJS, calls API from The Movie Database (TMDB).",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    source_code_link: "https://github.com/tranthuyvy/FE_Movie",
-    website: "https://the-movie-f2cd8.web.app/",
-  },
-  {
-    name: "Sneaker Website",
-    description:
-      "Users interface easy shopping, ordering and convenient product reviews, along with various features for management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "spingboot",
-        color: "green-text-gradient",
-      },
-      {
-        name: "restfulapi",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecommerce,
-    source_code_link: "https://github.com/tranthuyvy/ecommerce_FE",
-    website: "",
-  },
-  {
-    name: "Books Website",
-    description:
-      "Users can purchase and place orders through the website, and the data is saved on the database.",
-    tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "yii2",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: book,
-    source_code_link: "https://github.com/tranthuyvy/bookwebsite_Yii2",
-    website: "",
-  },
-  {
-    name: "Mobile Sales Application",
-    description:
-      "Using Android Studio and manage the MySQL database. Users can purchase and place orders through the app.",
-    tags: [
-      {
-        name: "query-php",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "androidstudio",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mobileselling,
-    source_code_link: "https://github.com/tranthuyvy/AppBanHang",
-    website: "",
-  },
+  // {
+  //   name: "Frontend Movie",
+  //   description:
+  //     "Drawing inspiration from Netflix app. I designed user interface using ReactJS, calls API from The Movie Database (TMDB).",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: movie,
+  //   source_code_link: "https://github.com/tranthuyvy/FE_Movie",
+  //   website: "https://the-movie-f2cd8.web.app/",
+  // },
+  // {
+  //   name: "Sneaker Website",
+  //   description:
+  //     "Users interface easy shopping, ordering and convenient product reviews, along with various features for management.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "spingboot",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "restfulapi",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ecommerce,
+  //   source_code_link: "https://github.com/tranthuyvy/ecommerce_FE",
+  //   website: "",
+  // },
+  // {
+  //   name: "Mobile Sales Application",
+  //   description:
+  //     "Using Android Studio and manage the MySQL database. Users can purchase and place orders through the app.",
+  //   tags: [
+  //     {
+  //       name: "query-php",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "java",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "androidstudio",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: mobileselling,
+  //   source_code_link: "https://github.com/tranthuyvy/AppBanHang",
+  //   website: "",
+  // },
+  //  {
+  //   name: "Books Website",
+  //   description:
+  //     "Users can purchase and place orders through the website, and the data is saved on the database.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "yii2",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: book,
+  //   source_code_link: "https://github.com/tranthuyvy/bookwebsite_Yii2",
+  //   website: "",
+  // },
 ];
 
 export { services, technologies, experiences, projects, careers };
