@@ -130,7 +130,7 @@ const Profile = () => {
 
         <h3 className={styles.sectionHeadText}>Education</h3>
         <p className="text-white-100 text-[16px] font-semibold pl-1 tracking-wider mb-5">Posts and Telecommunications Institute of Technology at Ho Chi Minh City</p>
-        <p className="text-white-100 text-[14px] font-medium pl-1 tracking-wider mb-5 italic">10-2019 to now</p>
+        <p className="text-white-100 text-[14px] font-medium pl-1 tracking-wider mb-5 italic">2019 - 2023</p>
         <p className="text-white-100 text-[15px] font-extralight pl-1 tracking-wider mb-5">Received a Good Scholarship in the first semester of the second year and the first semester of the third year.</p>
 
         <h3 className={styles.sectionHeadText}>Experience</h3>
@@ -142,11 +142,9 @@ const Profile = () => {
         <br />
 
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
-          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Fullstack Java - ReactJs at VTI</li>
-          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Learning and accumulating experience. Implementing responsive design. Developing web applications using the Java-Springboot Framework and ReactJs.</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Frontend Developer - ReactJs</li>
+          <li className="text-white-100 text-[15px] pl-1 tracking-wider">Intern and stay to work after. Implementing responsive design. Developing web applications using the NodeJs - Express and ReactJs.</li>
         </ul>
-
-
 
         {/* <h3 className={styles.sectionHeadText}>Interests</h3>
         <ul className="mt-5 list-disc ml-5 space-y-2 text-justify">
