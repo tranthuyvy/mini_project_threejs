@@ -28,7 +28,7 @@ const Profile = () => {
         <img
           src={face}
           alt="image-face"
-          className="w-[300px] h-[300px] rounded-full border-2 items-center justify-center m-5 mb-12"
+          className="w-[250px] h-[360px] rounded-lg border-neutral-400 items-center justify-center m-5 mb-12"
         />
 
         <label className="flex mb-1">
