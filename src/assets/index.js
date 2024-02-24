@@ -44,6 +44,7 @@ import trello from "./banner/trello_light.png";
 import alan from "./banner/alan.png";
 import web3 from "./banner/web3.png";
 import food from "./banner/food.png";
+import wedding from "./banner/wedding.png";
 
 import face from "./face.jpg";
 import gmail from "./gmail.png";
@@ -106,4 +107,5 @@ export {
   alan,
   web3,
   food,
+  wedding,
 };

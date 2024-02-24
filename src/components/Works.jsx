@@ -7,10 +7,10 @@ import { github } from "../assets"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, website}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, website }) => {
   return (
-    <motion.div 
-      variants={fadeIn("up", "spring", index * 0.5, 1)} 
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 1)}
       onClick={() => window.open(website, "_blank")}
     >
       <Tilt
@@ -21,9 +21,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className="relative w-full h-[250px]"
+        <div className="relative w-full h-[198px]"
         >
-          <img 
+          <img
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-md"
@@ -34,7 +34,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img 
+              <img
                 src={github}
                 alt="source_code_github"
                 className="w-5/6 h-5/6 object-contain"
@@ -50,7 +50,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p 
+            <p
               key={tag.name}
               className={`text-[14px] ${tag.color}`}
             >
@@ -82,9 +82,9 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 ">
+      <div className="mt-8 flex flex-wrap gap-4 ">
         {projects.map((project, index) => (
-          <ProjectCard 
+          <ProjectCard
             key={`project-${index}`}
             index={index}
             {...project}

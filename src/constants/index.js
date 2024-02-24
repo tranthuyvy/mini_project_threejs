@@ -32,6 +32,7 @@ import {
   alan,
   web3,
   food,
+  wedding,
 } from "../assets";
 
 export const navLinks = [
@@ -171,6 +172,24 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Wedding Invitation Mini App",
+    description:
+      "Using Zalo Mini App Studio built.",
+    tags: [
+      {
+        name: "zmp",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: wedding,
+    source_code_link: "https://github.com/tranthuyvy/wedding-invitation-mini-app",
+    website: "",
+  },
   {
     name: "Project Web 3.0",
     description:
@@ -361,24 +380,24 @@ const projects = [
     source_code_link: "https://github.com/tranthuyvy/Vfiverr.git",
     website: "",
   },
-  // {
-  //   name: "Frontend Movie",
-  //   description:
-  //     "Drawing inspiration from Netflix app. I designed user interface using ReactJS, calls API from The Movie Database (TMDB).",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: movie,
-  //   source_code_link: "https://github.com/tranthuyvy/FE_Movie",
-  //   website: "https://the-movie-f2cd8.web.app/",
-  // },
+  {
+    name: "Frontend Movie",
+    description:
+      "Drawing inspiration from Netflix app. I designed user interface using ReactJS, calls API from The Movie Database (TMDB).",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: movie,
+    source_code_link: "https://github.com/tranthuyvy/FE_Movie",
+    website: "https://the-movie-f2cd8.web.app/",
+  },
   // {
   //   name: "Sneaker Website",
   //   description:
@@ -405,32 +424,32 @@ const projects = [
   //   source_code_link: "https://github.com/tranthuyvy/ecommerce_FE",
   //   website: "",
   // },
-  // {
-  //   name: "Mobile Sales Application",
-  //   description:
-  //     "Using Android Studio and manage the MySQL database. Users can purchase and place orders through the app.",
-  //   tags: [
-  //     {
-  //       name: "query-php",
-  //       color: "orange-text-gradient",
-  //     },
-  //     {
-  //       name: "java",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "androidstudio",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "mysql",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: mobileselling,
-  //   source_code_link: "https://github.com/tranthuyvy/AppBanHang",
-  //   website: "",
-  // },
+  {
+    name: "Mobile Sales Application",
+    description:
+      "Using Android Studio and manage the MySQL database. Users can purchase and place orders through the app.",
+    tags: [
+      {
+        name: "query-php",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "androidstudio",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mobileselling,
+    source_code_link: "https://github.com/tranthuyvy/AppBanHang",
+    website: "",
+  },
   //  {
   //   name: "Books Website",
   //   description:
