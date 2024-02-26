@@ -78,14 +78,6 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -98,10 +90,6 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -110,14 +98,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "jira",
-  //   icon: jira,
-  // },
 ];
 
 const careers = [
