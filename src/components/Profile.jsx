@@ -110,8 +110,8 @@ const Profile = () => {
             />
 
             <span className="text-white font-medium mb-4 cursor-pointer">
-              <a href="https://www.linkedin.com/in/vy-tran-945bb92a2/">
-                https://www.linkedin.com/in/vy-tran-945bb92a2/
+              <a href="https://www.linkedin.com/in/vy-tran-fe/">
+                https://www.linkedin.com/in/vy-tran-fe/
               </a>
             </span>
           </label>
