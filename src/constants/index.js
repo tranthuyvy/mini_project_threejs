@@ -33,6 +33,7 @@ import {
   web3,
   food,
   wedding,
+  car_showcase,
 } from "../assets";
 
 export const navLinks = [
@@ -137,9 +138,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Wedding Invitation Mini App",
+    name: "Wed Invitation Mini App",
     description:
-      "Using Zalo Mini App Studio built.",
+      "Users can create and share code for friends to view invitations, albums, location, and transfer wedding gift money",
     tags: [
       {
         name: "zmp",
@@ -153,6 +154,28 @@ const projects = [
     image: wedding,
     source_code_link: "https://github.com/tranthuyvy/wedding-invitation-mini-app",
     website: "",
+  },
+  {
+    name: "Project Car Showcase",
+    description:
+      "The project is built using NextJS and TailwindCSS. Users can view and filter detailed information about cars.",
+    tags: [
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "rapid-api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: car_showcase,
+    source_code_link: "https://github.com/tranthuyvy/car_showcase.git",
+    website: "https://carshowcase-7q8rpzjn9-tran-vys-projects.vercel.app/",
   },
   {
     name: "Project Web 3.0",
@@ -304,24 +327,24 @@ const projects = [
     source_code_link: "https://github.com/tranthuyvy/DrawPhotos",
     website: "https://drawphotos-mjt54t879c4wpnjeycqpaq.streamlit.app/",
   },
-  {
-    name: "Dinosaur Running Game",
-    description:
-      "Game is inspired by dinosaur running on Chrome browser when the internet connection is lost.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "pygame",
-        color: "green-text-gradient",
-      },
-    ],
-    image: dinosaurgame,
-    source_code_link: "https://github.com/tranthuyvy/DinosaurGame.git",
-    website: "",
-  },
+  // {
+  //   name: "Dinosaur Running Game",
+  //   description:
+  //     "Game is inspired by dinosaur running on Chrome browser when the internet connection is lost.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "pygame",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: dinosaurgame,
+  //   source_code_link: "https://github.com/tranthuyvy/DinosaurGame.git",
+  //   website: "",
+  // },
   {
     name: "Vfiverr Website",
     description:
