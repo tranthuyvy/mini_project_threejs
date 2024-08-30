@@ -136,7 +136,7 @@ const experiences = [
     ],
   },
   {
-    title: "Design",
+    title: "Fullstack Developer",
     company_name: "CÔNG TY CỔ PHẦN CÔNG NGHỆ 200LAB",
     icon: lab_200,
     iconBg: "#ECECEC",
