@@ -34,6 +34,7 @@ import {
   food,
   wedding,
   car_showcase,
+  lab_200,
 } from "../assets";
 
 export const navLinks = [
@@ -132,6 +133,17 @@ const experiences = [
       "Intern and stay to work after.",
       "Learning and accumulating experience.",
       "Implementing responsive design. Developing web applications using the NodeJs - Express and ReactJs.",
+    ],
+  },
+  {
+    title: "Design",
+    company_name: "CÔNG TY CỔ PHẦN CÔNG NGHỆ 200LAB",
+    icon: lab_200,
+    iconBg: "#ECECEC",
+    date: "2023 - 2024",
+    points: [
+      "Learning and accumulating experience",
+      "Developing web applications using the Typescript and ReactJs, NextJs",
     ],
   },
 ];

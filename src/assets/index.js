@@ -30,6 +30,7 @@ import starbucks from "./company/starbucks.png";
 import irics from "./company/irics.png";
 import tesla from "./company/tesla.png";
 import lotus from "./company/lotus.png";
+import lab_200 from "./company/200lab.png";
 
 import cv from "./banner/cv-contact.png";
 import ecommerce from "./banner/ecommerce.jpg";
@@ -110,4 +111,5 @@ export {
   food,
   wedding,
   car_showcase,
+  lab_200,
 };
