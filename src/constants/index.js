@@ -35,6 +35,8 @@ import {
   wedding,
   car_showcase,
   lab_200,
+  nextjs,
+  typescript,
 } from "../assets";
 
 export const navLinks = [
@@ -81,12 +83,28 @@ const services = [
 
 const technologies = [
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "Tailwind CSS",
@@ -105,22 +123,21 @@ const technologies = [
 const careers = [
   {
     objects: [
-      "During the first 3-6 months, focus on learning, acquiring additional knowledge and experience, and getting accustomed to the work environment.",
-      "After 6 months, transition into an official employee role, become proficient in the work environment, foster a strong commitment to learning, and contribute to the company's success through personal development.",
+      "1 year of experience building responsive web interfaces with JavaScript, TypeScript, React.js, Next.js. Interested in SEO and website performance optimization, focusing on creating fast, accessible, and user-friendly applications. Eager to learn and improve skills continuously."
     ],
   },
 ];
 
 const experiences = [
   {
-    title: "Design",
-    company_name: "LITTLE LOTUS PRESCHOOL",
-    icon: lotus,
+    title: "Fullstack Developer",
+    company_name: "CÔNG TY CÔNG NGHỆ 200LAB",
+    icon: lab_200,
     iconBg: "#ECECEC",
-    date: "2020 - 2021",
+    date: "2024 - Now",
     points: [
-      "Design banners, posters, brochures.",
-      "Record videos, take photos, and edit videos.",
+      "Learning and accumulating experience",
+      "Developing web applications using the Typescript and ReactJs, NextJs",
     ],
   },
   {
@@ -133,17 +150,6 @@ const experiences = [
       "Intern and stay to work after.",
       "Learning and accumulating experience.",
       "Implementing responsive design. Developing web applications using the NodeJs - Express and ReactJs.",
-    ],
-  },
-  {
-    title: "Fullstack Developer",
-    company_name: "CÔNG TY CỔ PHẦN CÔNG NGHỆ 200LAB",
-    icon: lab_200,
-    iconBg: "#ECECEC",
-    date: "2023 - 2024",
-    points: [
-      "Learning and accumulating experience",
-      "Developing web applications using the Typescript and ReactJs, NextJs",
     ],
   },
 ];
